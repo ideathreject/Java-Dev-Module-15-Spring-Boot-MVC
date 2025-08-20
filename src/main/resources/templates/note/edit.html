@@ -4,7 +4,6 @@
 <body>
 <h1>Edit note</h1>
 
-<!-- POST /note/edit -->
 <form th:action="@{/note/edit}" method="post">
     <input type="hidden" name="id" th:value="${note.id}"/>
 
